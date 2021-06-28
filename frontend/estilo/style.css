@@ -1,0 +1,430 @@
+@font-face {
+    font-family: FuenteRegular;
+    src: url("../estilo/fuentes/static/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: FuenteLight;
+    src: url("../estilo/fuentes/static/WorkSans-Light.ttf");
+}
+
+@font-face {
+    font-family: FuenteBold;
+    src: url("../estilo/fuentes/static/WorkSans-Bold.ttf");
+}
+
+#div_cabecera{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    height: 12%;
+
+}
+
+#div_titulo{
+
+    
+    height: 65%;
+    width: 100%;
+    color: white;
+    font-size: 222%;
+    font-family: FuenteRegular;
+    
+}
+
+#div_subtitulo{
+
+    
+    height: 35%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 125%;
+    font-family: FuenteRegular;
+    width: 100%;
+
+}
+
+#div_formulario{
+ 
+    background-color: rgba(32, 32, 32, 0.507);
+    margin-bottom: 2%;
+    padding: 1%;
+    
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#form_tasks{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+#txt_input{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 49%;
+
+    border-radius: 5px;
+
+}
+
+#droplist{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 28%;
+
+    border-radius: 5px;
+
+}
+
+#placeholder{
+
+    color: red;
+
+}
+
+#btn_guardar{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 20%;
+    background-color: rgba(32, 32, 32, 0.74);
+    border: 0;
+    color: white;
+    font-family: FuenteRegular;
+    font-size: large;
+    padding: 0.7%;
+
+    border-radius: 5px;
+}
+
+[id^="btn_guardar_fin"]{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 20%;
+    background-color: rgb(65, 65, 65);
+    border: 0;
+    color: white;
+    font-family: FuenteRegular;
+    font-size: large;
+    padding: 0.7%;
+
+    border-radius: 5px;
+}
+
+[id^="btn_guardar_fin"]:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(104, 104, 104);
+    
+}
+
+input{
+
+    background-color: rgba(32, 32, 32, 0.74);
+    border: 0;
+    color: white;
+    font-family: FuenteRegular;
+    font-size: large;
+    padding: 0.7%;
+
+}
+
+[id^="txt_input_fin_"]{
+
+
+    background-color: rgb(65, 65, 65);
+    width:59%;
+    margin-right: 1%;
+    border-radius: 5px;
+
+}
+
+select{
+    background-color: rgba(32, 32, 32, 0.74);
+    border: 0;
+    color: white;
+    font-family: FuenteRegular;
+    font-size: large;
+    padding: 0.7%;
+
+}
+
+#btn_guardar:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(75, 75, 75, 0.74);
+
+}
+
+html{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+    body{
+        
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        
+
+
+    }
+
+        #div_body{
+
+            padding: 5%;
+            background-image: url("/frontend/estilo/background.jpg");
+            background-size: cover;
+            min-height: 90vh;
+            
+            
+        }
+
+            #div_principal{
+
+                
+
+            }
+
+                #div_lista{
+
+
+                }
+
+#footer{
+
+    background-color: rgb(32, 32, 32);
+    color: rgb(204, 204, 204);
+    font-family: FuenteRegular;
+    font-size: x-small;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 100%;
+
+}
+
+#form_tasks{
+    width: 100%;
+
+}
+
+#user_form{
+
+    width: 100%;
+}
+
+#div_fila{
+
+    background-color: rgb(45, 45, 45);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    margin-bottom: 0.5%;
+
+    border-radius: 5px;
+
+    padding: 1%;
+
+}
+
+[id^="fila_contenedor_interior_"]{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+[id^="form_in_"]{
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 0.5%;
+
+}
+
+[id^="droplist_fin_"]{
+
+    background-color: rgb(65, 65, 65);
+    width: 19%;
+    margin-right: 1%;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+#div_checkbox{
+
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    
+
+}
+
+#div_tarea_g{
+
+    width: 100%;
+    padding: 1%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+        
+
+}
+
+#div_tarea{
+    color: white;
+    font-family: FuenteRegular;
+    width: 100%;
+}
+
+[id^="div_categoria_"]{
+
+    color: rgb(255, 255, 255);
+    font-family: FuenteRegular;
+    font-size: small;
+    background-color: teal;
+    padding: 3px;
+    border-radius: 6px;
+    margin-right: 4%;
+
+}
+
+[id^="div_categoria_"]:empty {
+
+    display: none;
+
+}
+
+#div_editar{
+
+    width: 10%;
+    height: 100%;
+    
+
+}
+
+#div_eliminar{
+
+    width: 10%;
+    height: 150%;
+
+}
+
+[id^="btn_editar"]{
+
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0px;
+    background-color: transparent;
+    padding: 25%;
+    border-radius: 5px;
+
+}
+
+[id^="btn_editar"]:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(75, 75, 75, 0.74);
+
+}
+
+[id^="btn_editar"]:disabled .fa-edit {
+
+    color: rgb(122, 122, 122);   
+
+}
+
+[id^="btn_editar"]:hover:disabled {
+
+    background-color: rgba(0, 0, 0, 0);  
+
+}
+
+
+
+[id^="btn_eliminar"]{
+
+
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0px;
+    background-color: transparent;
+    padding: 25%;
+    border-radius: 5px;
+
+}
+
+[id^="btn_eliminar"]:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(75, 75, 75, 0.74);
+
+}
+
+.fa-trash-alt{
+
+    color: white;
+
+}
+
+.fa-edit{
+
+    color: white;
+
+}
+
+input[type=checkbox] {
+    transform: scale(1.6);
+    margin-right: 4%;
+    cursor: pointer;
+    padding: 0px;
+
+  }
+
+input[type=checkbox]:checked + label {
+    text-decoration-line: line-through;
+    color: rgb(163, 163, 163);
+}
+
